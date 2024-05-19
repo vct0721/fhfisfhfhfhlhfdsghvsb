@@ -128,6 +128,56 @@ end)
 Section:NewButton(" FALLEN1010 Intruder Script", "Have Fun!", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/FGjjwm6W'))()
 end)
+Section:NewButton(" Brickmane#0447 Intruder Script", "Have Fun!", function()
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+--[[
+Brickmane#0447
+bad coding skills, i know :(
+
+]]
+
+local player = game.Players.LocalPlayer
+local playerui = player.PlayerGui
+print("Loaded!")
+
+task.spawn(function()
+while task.wait(1.9) do
+if playerui.Outside.Frame.Close.Visible == true then
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "The intruder is at the fuse box\n(KINDA SAFE)";
+	Text = " ";
+	Duration = 2;
+});
+elseif playerui.FrontDoor.Frame.Close.Visible == true then
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "The intruder is at the frontdoor\n(SAFE)";
+	Text = " ";
+	Duration = 2;
+});
+elseif playerui.Street.Frame.Close.Visible == true then
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "The intruder is at the street\n(SAFE)";
+	Text = " ";
+	Duration = 2;
+});
+elseif playerui.Hallway.Frame.Close.Visible == true then
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "The intruder is close \nCLOSE THE LIGHTS AND HIDE\n(DANGER)";
+	Text = " ";
+	Duration = 2;
+})
+elseif playerui.Vent.Frame.Close.Visible == true then
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "The intruder is at the vents\nCLOSE THE LIGHTS AND HIDE\n(DANGER)";
+	Text = " ";
+	Duration = 2;
+});
+end;
+end;
+end);
+end)
 local Tab = Window:NewTab("MuderMystery2")
 local Section = Tab:NewSection("Scripts")
 Section:NewButton("Ominous Murder2 Script", "Have Fun!", function()
@@ -138,6 +188,14 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Drifter0507/GUIS/main
 end)
 Section:NewButton("Juninho Murder2 Script", "Have Fun!", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/JuninhoOGado/ScriptsSite/main/Script146'))()
+end)
+local Tab = Window:NewTab("SharkBite")
+local Section = Tab:NewSection("Scripts")
+Section:NewButton("JerrymiahPM SharkRipper Script", "Have Fun!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JerrymiahPM/SharkRipper/main/main.lua"))()
+end)
+Section:NewButton("JerrymiahPM SharkRipper Script", "Have Fun!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JerrymiahPM/SharkRipper/main/main.lua"))()
 end)
 local Tab = Window:NewTab("JailBreak")
 local Section = Tab:NewSection("Scripts")
@@ -167,6 +225,9 @@ local Section = Tab:NewSection("Scripts")
 Section:NewButton("thaibao Arsenal Script", "Have Fun!", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/tbao143/thaibao/main/ArsenalTbaoHubNew'))()
 end)
+Section:NewButton("Thunder Client Arsenal Script", "Have Fun!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/Main"))()
+end)
 local Tab = Window:NewTab("Others")
 local Section = Tab:NewSection("Scripts")
 Section:NewButton("Infinity Yield", "Universal!", function()
@@ -181,6 +242,9 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 end)
 Section:NewButton("UnfairHub", "Have Fun!", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/rbIxscriptsnet/unfair/main/rblxhub.lua'),true))()
+end)
+Section:NewButton("NextHub", "Have Fun!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader"))()
 end)
 local Tab = window:NewTab("Credits")
 local Section = Tab:NewSection("Credits")
