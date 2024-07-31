@@ -1,0 +1,141 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Custom Entities Tester Remake", "GrapeTheme")
+local Tab = Window:NewTab("Spawner")
+local Section = Tab:NewSection("Entities")
+Section:NewButton("Depth", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/7ueThQdS"))()
+end)
+
+Section:NewButton("Huntering", "Have Fun!", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/5vLfqSWa'))()
+end)
+
+Section:NewButton("A-35", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/QCYz0Na3"))()
+end)
+
+Section:NewButton("Blink", "Have Fun!", function()
+loadstring(game:HttpGet("https://github.com/PABMAXICHAC/doors-monsters-scripts/raw/main/blinkcrux"))()
+end)
+
+Section:NewButton("CLaim", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/d3R357Rk"))()
+end)
+
+Section:NewButton("Phill", "Have Fun!", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/5vLfqSWa'))()
+end)
+
+Section:NewButton("A-60", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/q0JC9BAt"))()
+end)
+
+Section:NewButton("A-90", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/YTBW2f9A"))()
+end)
+
+Section:NewButton("B-60", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/s2jHyGmm"))()
+end)
+
+Section:NewButton("A-120", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/S9KGv5Ce"))()
+end)
+
+Section:NewButton("Glitch", "Have Fun!", function()
+
+require(game.ReplicatedStorage.ClientModules.EntityModules.Glitch).stuff(Data, workspace.CurrentRooms[tostring(game.ReplicatedStorage.GameData.LatestRoom.Value)])
+
+end)
+
+Section:NewButton("Twister", "Have Fun!", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/5vLfqSWa'))()
+end)
+
+Section:NewButton("Matcher", "Have Fun!", function()
+
+game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(212, 255, 212)
+game.Lighting.MainColorCorrection.Contrast = 0.3
+local tween = game:GetService("TweenService")
+tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(0.5), {Contrast = 0}):Play()
+local TweenService = game:GetService("TweenService")
+local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(0.5),{TintColor = Color3.fromRGB(255, 255, 255)})
+TW:Play()
+    local roast = Instance.new("Sound")
+    roast.Parent = workspace
+    roast.Name = "roast"
+    roast.SoundId = "rbxassetid://9125936117"
+    roast.Volume = 0.5
+    roast.Pitch = 3
+    roast:Play()
+    wait(0.6)
+    roast:Destroy()
+loadstring(game:HttpGet("https://pastebin.com/raw/XzuW1A1p"))()
+
+end)
+
+Section:NewButton("Deer God", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/UdLR8g63"))()
+end)
+
+Section:NewButton("Threat", "Have Fun!", function()
+loadstring(game:HttpGet('https://pastefy.app/XE6WcVRT/raw'))()
+end)
+
+Section:NewButton("BlackOut", "Have Fun!", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Jahani-john/mayhem-mode/main/mayhemmode-main/ObfuscatedEntities/Blackout-obfuscated.lua'))()
+end)
+
+Section:NewButton("Silence", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/uNnkcsGU"))()
+end)
+
+Section:NewButton("Smiler", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/rCTaWAqN"))()
+end)
+
+Section:NewButton("Surge", "Have Fun!", function()
+
+local cue2 = Instance.new("Sound")
+	cue2.Parent = game.Workspace
+	cue2.Name = "Spawn"
+	cue2.SoundId = "rbxassetid://3359047385"
+	cue2.Volume = 1
+	cue2.PlaybackSpeed = 1
+	cue2:Play()
+game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(0, 255, 0)
+game.Lighting.MainColorCorrection.Contrast = 25
+local tween = game:GetService("TweenService")
+tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(9), {Contrast = 0}):Play()
+local TweenService = game:GetService("TweenService")
+local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(1),{TintColor = Color3.fromRGB(255, 255, 255)})
+TW:Play()
+wait(1)
+loadstring(game:HttpGet("https://pastebin.com/raw/jTEPNkrV"))()
+ 
+end)
+
+Section:NewButton("Monoxide", "Have Fun!", function()
+
+local cue2 = Instance.new("Sound")
+	cue2.Parent = game.Workspace
+	cue2.Name = "Spawn"
+	cue2.SoundId = "rbxassetid://7053083974"
+	cue2.Volume = 1
+	cue2.PlaybackSpeed = 1
+	cue2:Play()
+game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(0, 0, 255)
+game.Lighting.MainColorCorrection.Contrast = 10
+local tween = game:GetService("TweenService")
+tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(2.5), {Contrast = 0}):Play()
+local TweenService = game:GetService("TweenService")
+local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(5),{TintColor = Color3.fromRGB(255, 255, 255)})
+TW:Play()
+wait(1.9)
+loadstring(game:HttpGet("https://pastebin.com/raw/pm2GUxHV"))()
+ 
+end)
+
+Section:NewButton("Blood Rush (Door 50)", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/5Pg3CV3U"))()
+end)
