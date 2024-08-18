@@ -99,7 +99,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/kbLU6ep4"))()
 end)
 
 Section:NewButton("Hungered", "Have Fun!", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/d3R357Rk"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/JPL5TUtW"))()
 end)
 
 Section:NewButton("Surge", "Have Fun!", function()
