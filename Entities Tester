@@ -34,8 +34,32 @@ Section:NewButton("A-90", "Have Fun!", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/YTBW2f9A"))()
 end)
 
-Section:NewButton("B-60", "Have Fun!", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/s2jHyGmm"))()
+Section:NewButton("Frostbite", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastefy.app/y4qDfUgC/raw"))()
+end)
+
+Section:NewButton("A-25", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastefy.app/OGT4bH2R/raw"))()
+end)
+
+Section:NewButton("Rush Catalyst", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastefy.app/zbCLUIWJ/raw"))()
+end)
+
+Section:NewButton("Torment", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastefy.app/JOymYI5l/raw"))()
+end)
+
+Section:NewButton("Rebound", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastefy.app/AO9TWQ6f/raw"))()
+end)
+
+Section:NewButton("Common Sence", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastefy.app/qWBnRPkJ/raw"))()
+end)
+
+Section:NewButton("A-10", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastefy.app/qtrdHn5c/raw"))()
 end)
 
 Section:NewButton("A-120", "Have Fun!", function()
