@@ -119,7 +119,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/rCTaWAqN"))()
 end)
 
 Section:NewButton("Fragmented Dread", "Have Fun!", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/kbLU6ep4"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vct0721/Doors-Stuff/main/DreadEnity"))()
 end)
 
 Section:NewButton("Hungered", "Have Fun!", function()
