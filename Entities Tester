@@ -55,7 +55,7 @@ loadstring(game:HttpGet("https://pastefy.app/JOymYI5l/raw"))()
 end)
 
 Section:NewButton("Rebound", "Have Fun!", function()
-loadstring(game:HttpGet("https://pastefy.app/AO9TWQ6f/raw"))()
+loadstring(game:HttpGet("https://pastefy.app/bHNUSgTD/raw"))()
 end)
 
 Section:NewButton("Common Sence", "Have Fun!", function()
