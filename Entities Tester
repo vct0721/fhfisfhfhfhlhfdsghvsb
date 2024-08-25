@@ -6,6 +6,10 @@ Section:NewButton("Depth", "Have Fun!", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/7ueThQdS"))()
 end)
 
+Section:NewButton("Ripper", "Have Fun!", function()
+loadstring(game:HttpGet('https://pastefy.app/Mfhh3A8M/raw'))()
+end)
+
 Section:NewButton("Huntering", "Have Fun!", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/5vLfqSWa'))()
 end)
@@ -18,7 +22,7 @@ Section:NewButton("Blink", "Have Fun!", function()
 loadstring(game:HttpGet("https://github.com/PABMAXICHAC/doors-monsters-scripts/raw/main/blinkcrux"))()
 end)
 
-Section:NewButton("CLaim", "Have Fun!", function()
+Section:NewButton("Claim", "Have Fun!", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/d3R357Rk"))()
 end)
 
@@ -31,7 +35,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/q0JC9BAt"))()
 end)
 
 Section:NewButton("A-90", "Have Fun!", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/YTBW2f9A"))()
+loadstring(game:HttpGet("https://pastefy.app/K2TbsMWk/raw"))()
 end)
 
 Section:NewButton("Frostbite", "Have Fun!", function()
@@ -42,8 +46,8 @@ Section:NewButton("A-25", "Have Fun!", function()
 loadstring(game:HttpGet("https://pastefy.app/6l2QHB8I/raw"))()
 end)
 
-Section:NewButton("Rush Catalyst", "Have Fun!", function()
-loadstring(game:HttpGet("https://pastefy.app/zbCLUIWJ/raw"))()
+Section:NewButton("The Watcher", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastefy.app/S1kL47Q0/raw"))()
 end)
 
 Section:NewButton("Torment", "Have Fun!", function()
