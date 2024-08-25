@@ -39,7 +39,7 @@ loadstring(game:HttpGet("https://pastefy.app/y4qDfUgC/raw"))()
 end)
 
 Section:NewButton("A-25", "Have Fun!", function()
-loadstring(game:HttpGet("https://pastefy.app/OGT4bH2R/raw"))()
+loadstring(game:HttpGet("https://pastefy.app/6l2QHB8I/raw"))()
 end)
 
 Section:NewButton("Rush Catalyst", "Have Fun!", function()
@@ -59,7 +59,7 @@ loadstring(game:HttpGet("https://pastefy.app/qWBnRPkJ/raw"))()
 end)
 
 Section:NewButton("A-10", "Have Fun!", function()
-loadstring(game:HttpGet("https://pastefy.app/qtrdHn5c/raw"))()
+loadstring(game:HttpGet("https://pastefy.app/rmShikEK/raw"))()
 end)
 
 Section:NewButton("A-120", "Have Fun!", function()
