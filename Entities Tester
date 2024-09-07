@@ -10,6 +10,11 @@ Section:NewButton("Ripper", "Have Fun!", function()
 loadstring(game:HttpGet('https://pastefy.app/Mfhh3A8M/raw'))()
 end)
 
+Section:NewButton("Cease", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastefy.app/AaIrbcZS/raw"))()
+end)
+
+
 Section:NewButton("Huntering", "Have Fun!", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/5vLfqSWa'))()
 end)
