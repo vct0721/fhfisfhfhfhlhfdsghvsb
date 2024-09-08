@@ -14,6 +14,17 @@ Section:NewButton("Cease", "Have Fun!", function()
 loadstring(game:HttpGet("https://pastefy.app/AaIrbcZS/raw"))()
 end)
 
+Section:NewButton("Erie Eye", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/u4WdiaNF"))()
+end)
+
+Section:NewButton("TrollFace", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/h4jRVYD2"))()
+end)
+
+Section:NewButton("Empire", "Have Fun!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Tjwri4BT"))()
+end)
 
 Section:NewButton("Huntering", "Have Fun!", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/5vLfqSWa'))()
