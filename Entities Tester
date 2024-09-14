@@ -6,6 +6,31 @@ Section:NewButton("Depth", "Have Fun!", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/7ueThQdS"))()
 end)
 
+Section:NewButton("Rush Catalyst", "Have Fun!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vct0721/Doors-Stuff/main/RushCatalyst"))()
+end)
+
+Section:NewButton("Conjoiment", "Have Fun!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vct0721/Doors-Stuff/main/ConjoimentEnity"))()
+end)
+
+Section:NewButton("W1th3", "Have Fun!", function()
+local cuew = Instance.new("Sound")
+cuew.Parent = game.Workspace
+cuew.Name = "Spawn"
+cuew.SoundId = "rbxassetid://3359047385"
+cuew.Volume = 1
+cuew.PlaybackSpeed = 1
+cuew:Play()
+game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(0, 255, 0)
+game.Lighting.MainColorCorrection.Contrast = 25
+local tween = game:GetService("TweenService"):Create(game.Lighting.MainColorCorrection, TweenInfo.new(9), {Contrast = 0})
+tween:Play()
+local TW = game:GetService("TweenService"):Create(game.Lighting.MainColorCorrection, TweenInfo.new(1), {TintColor = Color3.fromRGB(255, 255, 255)})
+TW:Play()
+loadstring(game:HttpGet("https://pastebin.com/raw/2LTckSaJ"))()
+end)
+
 Section:NewButton("Ripper", "Have Fun!", function()
 loadstring(game:HttpGet('https://pastefy.app/Mfhh3A8M/raw'))()
 end)
