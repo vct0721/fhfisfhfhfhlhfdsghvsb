@@ -1,34 +1,37 @@
 local function injectLastHint()
+    local function ensureComma(hints)
+        if #hints > 0 then
+            local penultimateHint = hints[#hints]
+            if not penultimateHint:match(",%s*$") then
+                hints[#hints] = penultimateHint .. ","
+            end
+        end
+    end
+
     local function modifyDeathHint()
         if DeathHint then
             local originalDeathHint = DeathHint
-
             DeathHint = function(hints, type: string)
+                ensureComma(hints)
                 local lastHint = "[You Have Reached This Far, Keep Going!]"
                 if hints[#hints] ~= lastHint then
                     table.insert(hints, lastHint)
                 end
-
                 originalDeathHint(hints, type)
             end
-
-            print("function DeathHint modiified.")
-        else
-            warn("function DeathHint was not found.")
         end
     end
 
     local originalLoadstring = loadstring
     loadstring = function(code)
         local func = originalLoadstring(code)
-
         modifyDeathHint()
-
         return func
     end
-
 end
 
 while true do
 
 injectLastHint()
+
+end
