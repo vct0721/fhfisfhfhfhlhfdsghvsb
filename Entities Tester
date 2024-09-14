@@ -10,6 +10,10 @@ Section:NewButton("Rush Catalyst", "Have Fun!", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vct0721/Doors-Stuff/main/RushCatalyst"))()
 end)
 
+Section:NewButton("SIlence Floor 2", "Have Fun!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vct0721/Doors-Stuff/main/SilenceF2"))()
+end)
+
 Section:NewButton("Conjoiment", "Have Fun!", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vct0721/Doors-Stuff/main/ConjoimentEnity"))()
 end)
