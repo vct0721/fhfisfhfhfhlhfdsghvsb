@@ -1,0 +1,34 @@
+local function injectLastHint()
+    local function modifyDeathHint()
+        if DeathHint then
+            local originalDeathHint = DeathHint
+
+            DeathHint = function(hints, type: string)
+                local lastHint = "[You Have Reached This Far, Keep Going!]"
+                if hints[#hints] ~= lastHint then
+                    table.insert(hints, lastHint)
+                end
+
+                originalDeathHint(hints, type)
+            end
+
+            print("function DeathHint modiified.")
+        else
+            warn("function DeathHint was not found.")
+        end
+    end
+
+    local originalLoadstring = loadstring
+    loadstring = function(code)
+        local func = originalLoadstring(code)
+
+        modifyDeathHint()
+
+        return func
+    end
+
+end
+
+while true do
+
+injectLastHint()
