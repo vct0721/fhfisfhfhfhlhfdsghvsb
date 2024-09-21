@@ -8,25 +8,30 @@ local function injectLastHint()
         end
     end
 
-    local function modifyDeathHint()
-        if DeathHint then
-            local originalDeathHint = DeathHint
-            DeathHint = function(hints, type: string)
-                ensureComma(hints)
-                local lastHint = "[You Have Reached This Far, Keep Going!]"
-                if hints[#hints] ~= lastHint then
-                    table.insert(hints, lastHint)
-                end
-                originalDeathHint(hints, type)
-            end
+    local function modifyDeathHint(hints, type)
+        ensureComma(hints)
+        local lastHint = "[You Have Reached This Far, Keep Going!]"
+        if hints[#hints] ~= lastHint then
+            table.insert(hints, lastHint)
         end
+
+        -- Só aceita "Blue" e "Yellow"
+        if type ~= "Blue" and type ~= "Yellow" then
+            warn("Invalid type provided. Defaulting to 'Blue'.")
+            type = "Blue"
+        end
+
+        -- Dispara o evento com as dicas modificadas
+        firesignal(game.ReplicatedStorage.RemotesFolder.DeathHint.OnClientEvent, hints, type)
     end
 
-    local originalLoadstring = loadstring
-    loadstring = function(code)
-        local func = originalLoadstring(code)
-        modifyDeathHint()
-        return func
+    local originalFiresignal = firesignal
+    firesignal = function(event, hints, type)
+        if event == game.ReplicatedStorage.RemotesFolder.DeathHint.OnClientEvent then
+            modifyDeathHint(hints, type)
+        else
+            originalFiresignal(event, hints, type)
+        end
     end
 end
 
